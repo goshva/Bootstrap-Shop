@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="./img/favicon.ico">
+        <title>"За чай" Доставка продуктов Долгопрудный</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/pnotify.custom.min.css" rel="stylesheet">
+        <link href="./css/Shop.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a  class="navbar-brand" href="#">Корзина:<span id="ClearBasket" class="glyphicon glyphicon-remove-circle" onclick="location.reload()"></span></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span><b class="caret"></b></a>
+              <ul class="baskets dropdown-menu">
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>  
+        <div class="container">
+            <div class="row ">
+                <div class="col-xs-12 col-sm-9">
+                    <div class="jumbotron">
+                        <img  src="./img/deliver.png" alt="Simple logo" style="float: left; padding-right: inherit;">
+                        <h3>Служба доставки продуктов "Гонец за Чай"</h3>
+                        <p>Курьеры работают за чаевые. Вам решать.</p>
+                        <a class="btn btn-info">☎8-916-125-09-57</a> (Для вызова курьера ) <br>
+                        <i>Каталоги от  партнеров: </i>
+                    </div>
+
+
+<div id="content">
+    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+        <li id="Main" class="active"><a href="#vitrina" data-toggle="tab">Все</a></li>
+    </ul>
+    <div id="my-tab-content" class="tab-content">
+        <div class="tab-pane active" id="vitrina">
+        <hr>
+        </div>
+    </div>
+</div>
+                    <!--/row-->
+                </div>
+                <div class="col-xs-6 col-sm-3 " role="navigation">
+                    <div id="basket" class="baskets list-group">
+                                       <h3>Список покупок:</h3>
+                        <a id="BasketHead"  href="#" class="list-group-item active">Корзина   <span id="ClearBasket" class="glyphicon glyphicon-remove-circle" onclick="location.reload()"></span></a>
+                    </div>
+                </div>
+                <!--/span-->
+            </div>
+            <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div id="Confirm" class="modal-content">
+                        <br>
+                        <input id="PartnerShopHiden" style="display:none"></input>
+                        <label for="Address" style="padding-left: 15px;">Адрес:</label>
+                        <input type="text" class="form-control Confirmer" id="Adderss" placeholder="Введите адрес доставки" autofocus>
+                        <label for="Phone" style="padding-left: 15px;">Телефон:</label>
+                        <input type="tel" class="form-control Confirmer" id="Telephone" placeholder="Ваш номер для курьера">
+                        <button  id="SendOrder" type="button" class="form-control Confirmer btn btn-primary">Подтвердите заказ на сумму: </button>
+                    </div>
+                </div>
+            </div>
+            <!--/row-->
+            <hr>
+            <footer>
+                <p>&copy; Гонец 2014  <i>*Предолжения и пожелания: gonec.biz@gmail.com </i> Спасибо) </p>
+            </footer>
+        </div>
+        <script type="text/javascript" src="http://yandex.st/jquery/2.1.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://yandex.st/jquery/cookie/1.0/jquery.cookie.min.js"></script>
+        <script src="./js/catalog.js"></script>
+        <script src="js/swich.js"></script>
+        <script src="./js//openHours.js"></script>
+        <script src="./js/basket.js"></script>
+        <script src="./js/pnotify.custom.min.js"></script>
+        <script src="./js/WSinit.js"></script>
+    </body>
+</html>
