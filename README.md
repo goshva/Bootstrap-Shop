@@ -1,4 +1,9 @@
-<<<<<<< HEAD
+=======
+Bootstrap-Shop
+==============
+one page internet shop
+
+
 This is  project  create simple one-page internet-shop. Get Bootstrap.
 Shema: 
     1. Json catalog  has reading from JS [catalog.js]
@@ -13,9 +18,5 @@ Plugins:
     twitter Bootstap
     Jquery
     Pnotify 
-=======
-Bootstrap-Shop
-==============
 
-one page internet shop
->>>>>>> 68928005355b364a309cb4e57d59dc374d4814b9
+
